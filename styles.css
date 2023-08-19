@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+body {
+  margin: 0;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2f80ed;
+  color: white;
+  padding: 10px 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  margin-left: 20px;
+}
+
+.nav-left .logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Alegreya", serif;
+}
+
+.sticky-nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-family: "Alegreya", serif;
+}
+
+.sticky-nav li {
+  margin: 0 10px;
+}
+
+.sticky-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sticky-nav a:hover {
+  color: #010101;
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-family: "Alegreya", serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.Rcontent {
+  padding-left: 50px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.Rcontent h2 {
+  text-align: center;
+  font-family: "Alegreya", serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #a5a2a2;
+}
+table th {
+  background-color: #f2f2f2;
+}
+
+table.nested-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+table.nested-table td {
+  padding: 4px 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 96%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #e8f3fa;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2f80ed;
+}
+html {
+  scroll-behavior: smooth;
+}
